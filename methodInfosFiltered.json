@@ -1,0 +1,191 @@
+{
+	"Game.On_RequestGameStart": {
+		"methodName": "__0_On_RequestGameStart",
+		"parameters": [
+			"__1_requestingPlayer__param",
+			"__0_gameId__param"
+		]
+	},
+	"Game.On_GameStartRequest_Accepted": {
+		"methodName": "__0_On_GameStartRequest_Accepted",
+		"parameters": [
+			"__0_respondingPlayer__param",
+			"__1_gameId__param"
+		]
+	},
+	"Game.GameStart": {
+		"methodName": "__0_GameStart",
+		"parameters": [
+			"__2_requestingPlayer__param",
+			"__2_gameId__param"
+		]
+	},
+	"Game.On_RequestPlaceBomb": {
+		"methodName": "__0_On_RequestPlaceBomb",
+		"parameters": [
+			"__3_requestingPlayer__param",
+			"__3_gameId__param",
+			"__2_seat__param",
+			"__0_boxId__param"
+		]
+	},
+	"Game.On_RequestPlaceBomb_Success": {
+		"methodName": "__0_On_RequestPlaceBomb_Success",
+		"parameters": [
+			"__1_master__param",
+			"__4_requestingPlayer__param",
+			"__4_gameId__param",
+			"__3_seat__param",
+			"__1_boxId__param"
+		]
+	},
+	"Game.On_BombsExplode": {
+		"methodName": "__0_On_BombsExplode",
+		"parameters": [
+			"__2_master__param",
+			"__5_gameId__param"
+		]
+	},
+	"Game.On_RequestDotSelect": {
+		"methodName": "__0_On_RequestDotSelect",
+		"parameters": [
+			"__5_requestingPlayer__param",
+			"__6_gameId__param",
+			"__0_gridPosition__param",
+			"__0_seatid__param"
+		]
+	},
+	"Game.On_RequestDotSelect_Success": {
+		"methodName": "__0_On_RequestDotSelect_Success",
+		"parameters": [
+			"__6_requestingPlayer__param",
+			"__7_gameId__param",
+			"__1_gridPosition__param",
+			"__1_seatid__param"
+		]
+	},
+	"Game.On_GameEnd": {
+		"methodName": "__0_On_GameEnd",
+		"parameters": [
+			"__7_requestingPlayer__param",
+			"__8_gameId__param"
+		]
+	},
+	"Game.On_PlayerTurnChange": {
+		"methodName": "__0_On_PlayerTurnChange",
+		"parameters": [
+			"__8_requestingPlayer__param",
+			"__9_gameId__param",
+			"__4_seat__param"
+		]
+	},
+	"Game.On_PlayerExtraTurn": {
+		"methodName": "__0_On_PlayerExtraTurn",
+		"parameters": [
+			"__9_requestingPlayer__param",
+			"__10_gameId__param",
+			"__5_seat__param"
+		]
+	},
+	"Game.On_RequestDotSelect_Failed": {
+		"methodName": "__0_On_RequestDotSelect_Failed",
+		"parameters": [
+			"__10_requestingPlayer__param",
+			"__11_gameId__param",
+			"__2_gridPosition__param",
+			"__2_seatid__param"
+		]
+	},
+	"Game.On_RequestResetGame": {
+		"methodName": "__0_On_RequestResetGame",
+		"parameters": [
+			"__11_requestingPlayer__param",
+			"__12_gameId__param"
+		]
+	},
+	"Game.On_RequestResetGame_Rejected": {
+		"methodName": "__0_On_RequestResetGame_Rejected",
+		"parameters": [
+			"__12_requestingPlayer__param",
+			"__13_gameId__param"
+		]
+	},
+	"Game.On_RequestResetGame_Success": {
+		"methodName": "__0_On_RequestResetGame_Success",
+		"parameters": [
+			"__13_requestingPlayer__param",
+			"__14_gameId__param"
+		]
+	},
+	"Game.On_RequestScrewDriverADot": {
+		"methodName": "__0_On_RequestScrewDriverADot",
+		"parameters": [
+			"__14_requestingPlayer__param",
+			"__15_gameId__param",
+			"__3_gridPosition__param",
+			"__5_seatid__param"
+		]
+	},
+	"Game.On_RequestScrewDriverADot_Success": {
+		"methodName": "__0_On_RequestScrewDriverADot_Success",
+		"parameters": [
+			"__15_requestingPlayer__param",
+			"__16_gameId__param",
+			"__4_gridPosition__param",
+			"__6_seatid__param",
+			"__0_powerup__param"
+		]
+	},
+	"Game.On_RequestScrewDriverADot_Failed": {
+		"methodName": "__0_On_RequestScrewDriverADot_Failed",
+		"parameters": [
+			"__16_requestingPlayer__param",
+			"__17_gameId__param",
+			"__5_gridPosition__param",
+			"__7_seatid__param"
+		]
+	},
+	"Player.On_SeatJoinRequest": {
+		"methodName": "__0_On_SeatJoinRequest",
+		"parameters": [
+			"__0_player__param",
+			"__0_seatId__param",
+			"__0_gameId__param"
+		]
+	},
+	"Player.On_SeatJoinRequestFailed": {
+		"methodName": "__0_On_SeatJoinRequestFailed",
+		"parameters": [
+			"__2_requestingPlayer__param",
+			"__0_occupyingPlayer__param",
+			"__1_seatId__param",
+			"__1_gameId__param"
+		]
+	},
+	"Player.On_RequestGameMaster": {
+		"methodName": "__0_On_RequestGameMaster",
+		"parameters": [
+			"__4_requestingPlayer__param",
+			"__2_seatId__param",
+			"__2_gameId__param"
+		]
+	},
+	"Player.On_RequestGameMasterFailed": {
+		"methodName": "__0_On_RequestGameMasterFailed",
+		"parameters": [
+			"__5_requestingPlayer__param",
+			"__3_seatId__param",
+			"__3_gameId__param",
+			"__0_gameMaster__param"
+		]
+	},
+	"Player.On_InformGameJoin": {
+		"methodName": "__0_On_InformGameJoin",
+		"parameters": [
+			"__6_requestingPlayer__param",
+			"__4_seatId__param",
+			"__4_gameId__param",
+			"__0_master__param"
+		]
+	}
+}
